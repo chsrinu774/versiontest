@@ -1,0 +1,889 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Windows User</Author>
+  <LastAuthor>Windows User</LastAuthor>
+  <Created>2020-05-12T12:12:01Z</Created>
+  <LastSaved>2020-07-22T13:36:02Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12540</WindowHeight>
+  <WindowWidth>28695</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s18">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s20">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s25">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s27">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s29">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s32">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s33">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s35">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s40">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s41">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s43">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s45">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <NumberFormat ss:Format="General Date"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s48">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s52">
+   <Borders/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Borders/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0.00;[Red]0.00"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0.00;[Red]0.00"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#003399"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Borders/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#003399"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="3" ss:Width="84.75"/>
+   <Column ss:Width="42"/>
+   <Column ss:Width="65.25"/>
+   <Column ss:Width="50.25"/>
+   <Column ss:Width="130.5"/>
+   <Column ss:Width="61.5"/>
+   <Column ss:Width="132.75"/>
+   <Column ss:Width="91.5"/>
+   <Column ss:Width="83.25"/>
+   <Row ss:Index="3" ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s76"><Data ss:Type="String">2013-14</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s54"><Data ss:Type="String">DW Account No</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">Micr No</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">DW SEQ ID</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">Amount</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">Beneficiary Name</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">Warrant No</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Remarks</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Rejection Ref. No</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Rejection Month</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s17"><Data ss:Type="Number">33866225517</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">270815</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1520</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">MEENA GAJANAN MAHAJAN</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">320350</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">DD against NEFT Rejections</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">SBIN319345748521</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dec.2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">33866225517</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">396679</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1520</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">S SUBRAMANIAN</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">545338</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">DD against NEFT Rejections</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">SBIN319325130919</Data></Cell>
+    <Cell><Data ss:Type="String">Nov.2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="Number">33866225517</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">156365</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1976</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">BEENA BAJPAI</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">801639</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">DD against NEFT Rejections</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">SBIN619074952610</Data></Cell>
+    <Cell><Data ss:Type="String">March.2019</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s40"><Data ss:Type="Number">33866225517</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">287756</Data></Cell>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">9.5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">PRAKASHCHANDRA G GANDHI</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">589913</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">DD against NEFT Rejections</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">SBIN419094879703</Data></Cell>
+    <Cell><Data ss:Type="String">March.2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s51"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s51"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s51"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s51"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s77"><Data ss:Type="String">2016-17</Data></Cell>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s54"><Data ss:Type="String">DW Account No</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">Micr No</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">DW SEQ ID</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">Amount</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">Beneficiary Name</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">Warrant No</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Remarks</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Rejection Ref. No</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Rejection Month</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">37012059888</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">905181 (DD)</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s45"><Data ss:Type="Number">8800</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">RAM KISHORE GOTETI                                </Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">170109056</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">DD against DD cancelled</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="Number">37012059888</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">873061</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="Number">1760</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">MEENA GAJANAN MAHAJAN</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">170358513</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DD against NEFT Rejection</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">SBIN319345748602</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">Dec.2010</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s40"><Data ss:Type="Number">37012059888</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="Number">91884</Data></Cell>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="Number">1243</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">VIJAY KUMAR SRIVASTAVA </Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">170337575</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">DD against NEFT Rejections</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">Sep.2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">37012059888</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">890033</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s45"><Data ss:Type="Number">1760</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">S SUBRAMANIAN</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">170601656</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">DD against neft rejections</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SBIN319325132127</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Nov.2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="Number">37012059888</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">725797</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="Number">880</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">SUMAN DAS</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="Number">175629990</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DD against neft rejections</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">PLEASE FURNISH 11 DIGIT ACCOUNT NUMBER</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">March.2019</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s40"><Data ss:Type="Number">37012059888</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">183623</Data></Cell>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">PRAKASHCHANDRA G GANDHI</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">170649567</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">DD against neft rejections</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">SBIN419094878182</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">March.2019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s51"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s51"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s51"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s77"><Data ss:Type="String">2018-19</Data></Cell>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s59"><Data ss:Type="String">DW Account No</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Micr No</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">DW SEQ ID</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Amount</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Beneficiary Name</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Warrant No</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Remarks</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Rejection Ref No</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Month</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">38629813966</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">694225</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">247650</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">RAVINDRA THAVARDAS MEHTA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">195045630</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">DD against NEFT Rejections</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">SBIN220041445305</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Feb.2020</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="Number">38629813966</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">281212</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">910</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">RISHAD TALYARKHAN </Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">195593965</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DD against NEFT Rejections</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">Feb.2020</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">38629813966</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">448031</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1040</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SUMAN DAS</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">195637948</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">DD against neft rejections</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">PLEASE FURNISH 11 DIGIT ACCOUNT NUMBER</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Aug.2019</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s40"><Data ss:Type="Number">38629813966</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">70452</Data></Cell>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="Number">117</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OM PRAKASH</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">190553706</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">DD against warrant cancelled</Data></Cell>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s44"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>10</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
